@@ -3,65 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Search</title>
-		<style>
-			body 
-			{
-				font-family: Arial, sans-serif;
-				background-color: #eebbe4;
-			}
-			#container
-			{
-				background-color:#f5d8ef;
-				max-width: 600px;
-				box-shadow: 0 8px 8px 0 #e614db;
-				border-radius: 8px;
-				margin: 100px auto;
-				padding: 20px;
-				
-			}
-			#logo
-			{
-				color: #cb2b93;
-				display: block;
-				width: 272px;
-				margin: 0 auto 30px;
-			}
-			#id-form
-			{
-				display: flex;
-				border: 1px solid #b57fb2ae;
-				border-radius: 24px;
-				box-shadow: 0 24px 24px 0 rgb(0, 0, 0, 0.1);
-				overflow: hidden;
-			}
-			#input-text
-			{
-				flex: 1;
-				border: none;
-				outline: none;
-				font-size: 16px;
-				padding: 15px;
-			}
-			#input-submit
-			{
-				background-color: #cb2b93;
-				color: #fff;
-				padding: 10px 20px;
-				border: none;
-				border-radius: 0 24px 24px 0;
-				cursor: pointer;
-				box-shadow: 0 24px 24px rgba(0, 0, 0, 0.1);
-			}
-			#input-submit:hover
-			{
-				background-color: #e088b9;
-			}
-		</style>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<div id="container">
 			<img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo">
-		<form id="id-form" action="https://google.com/search" method="get">
+		<form id="id-form" action="https://google.com/search" method="GET">
 			<input id="input-text" type="text" name="q">
 			<input id="input-submit" type="submit" value="Google Search">
 		</form>

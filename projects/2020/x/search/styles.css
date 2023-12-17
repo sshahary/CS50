@@ -79,6 +79,10 @@ a
 	color: #3c4043;
 
 }
+a:hover
+{
+	color: #3271e2;
+}
 .abc 
 {
 	text-align: center;
@@ -92,4 +96,20 @@ a
 .abc button:hover
 {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.google-image
+{
+	width: 400px;
+}
+.text-image
+{
+	display: flex;
+	text-align: right;
+	font: 20px/20px roboto-regular, arial, sans-serif;
+	margin-left: 300px;
+	margin-top: -75px;
+	color:  #4285f4;
+	text-decoration: solid;
+	
 }

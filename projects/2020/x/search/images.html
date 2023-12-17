@@ -1,44 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Google Image Search</title>
-		<!-- <link rel="stylesheets" href="styles.css"> -->
-		<style>
-			body
-			{
-				border: 2px black;
-				margin: 20px;
-			}
-			header
-			{
-				text-align: right;
-			}
-			#container
-			{
-				padding: 20px;
-				text-align: center;
-				margin-top: 50%;
-
-			}
-			.rounded
-			{
-				border-radius: 8px;
-			}
-
-			
-		</style>
-
-	</head>
-	<body>
-		<header>
-			<a href="index.html"> Back to Google Search</a>
-		</header>
-		<div id="container">
-			<form action="https://www.google.com/imghp?hl=en&ogbl" method="get">
-				<input class="rounded" type="fieldname" >
-				<button class="rounded">Image Search</button>
-			</form>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google Images Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav class="nav">
+		<div class="nav-links">
+			<a class="link" href="index.html">Back to Google Search</a>
 		</div>
-	</body>
+	</nav>
+	<div class="container">
+		<img class="google-image" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Images Logo">
+		<div class="text-image">
+			images
+		</div>
+	<form  class="form-data" action="https://google.com/search" method="GET">
+		<input type="text" class="input-box" name="q">
+		<button type="submit" class="search-btn"><img class="search-icon" src="search.png"></button>
+	</form class="google-btn">
+	<div class="abc">
+	<button type="submit" class="google-btn"><a href="https://google.com/search"> Google Search</a></button>
+	<button type="submit" class="google-btn"> <a href="https://www.google.com/search">I'm Feeling Lucky</a></button>
+	</div>
+	</div>
+</body>
 </html>
